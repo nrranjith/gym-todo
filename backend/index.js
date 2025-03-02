@@ -9,13 +9,7 @@ const app = express();
 //middleware for covert json request
 
 app.use(express.json())
-app.use(cors({
-    origin:["gym-todo-chi.vercel.app"],
-    methods:["GET","POST","DELETE","PATCH"],
-    credentials:true
-}
-
-))
+app.use(cors())
 // middleware for show console
 
 
