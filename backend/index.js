@@ -10,7 +10,7 @@ const app = express();
 
 app.use(express.json())
 app.use(cors({
-    origin:["https://gym-todo-nu.vercel.app/"],
+    origin:["gym-todo-chi.vercel.app"],
     methods:["GET","POST","DELETE","PATCH"],
     credentials:true
 }
